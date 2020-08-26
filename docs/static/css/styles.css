@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 *::before,
 *::after,
 * {
@@ -10,153 +11,59 @@
 html,
 body {
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
 }
 
-section{
- display: grid;
- grid-template-columns: 0.6fr 0.4fr;
- grid-gap: 30px;
- height: 100%;
+
+article {
+	margin: 0 auto;
+	padding: 9% 25%;
 }
 
-.content-left {
-	padding: 15% 10% 15% 25%;
-}
-  h1 {
+
+h1 {
+  font-family: 'Special Elite', cursive;
   font-size: 3.5em; 
   font-weight: 200;
+  margin-bottom: 0.7em;
+  margin-top: 0.7em;
+  text-align: center;
 }
 
-  h2 {
-	font-size: 2em;
-  }
-
-  span {
-	  color: #e36414ad;
-  }
-
-  .mis-comentarios {
-	 font-size: 30px;
-	 font-weight: 400; 
-	 letter-spacing: 1px;
-	 margin-bottom: 70px;
-	 margin-top: 70px;
-	 padding-right: 20%;
-  }
-
-  .citas {
-	color:#00000099;
-	font-size: 30px;
-	font-style: italic;
-	font-weight: 200;
-	padding-right: 20%;
-  }
-
-  .autor-cita { 
-	color: #000000cf;
-	float: right;
-	margin-right: 15%;
+p {
+ line-height: 1.5em;	
+ margin-bottom: 15px;
 }
 
-
-.circulo {
-    stroke-width: 0px;
-    fill: #e36414c7;
+a {
+	text-decoration: none;
+    color: #000000;
+    font-style: italic;
 }
 
-.citas-svg {
-	height: 100vh;
-	width: 45%;
-    position: absolute;
-    left: 50%;
+.color-fondo {
+	background: #FB8B24a3;
 }
 
-.circulo-purpura {
-	stroke-width: 0px;
-	fill: #5F0F40c7;
-}
-
-.titulo-seccion {
-	color: #0F4C5Cc7;
-	font-size: 50px;
-	text-transform: uppercase;
-	text-align: center;
-	margin-left: 0px;
-	margin-right: auto;
-	margin-top: 40%;
-}
-
-.texto-info {
-	font-size: 25px;
-	letter-spacing: 0.7px;
-	padding-right: 20%;
-	margin-bottom: 15px;
-}
-
-.historia-info {
-	color: #000000d6;
-	font-size: 20px;
-	letter-spacing: 0.7px;
-	padding-right: 20%;
-	margin-top: 30px;
-}
-.flor{
-	stroke-width: 1px;
-	stroke: #0F4C5Cc7;
-	stroke-dasharray: 800;
-	stroke-dashoffset: 800;
-	fill: transparent;
-	animation: dash 10s infinite linear;
-	width: 150px;
-	height: 150px;
-  }
-   
-  
-  @keyframes dash {
-	to {
-	  stroke-dashoffset: 0;
-	}
-  }
-
-
-  .flip-box {
-	background-color: transparent;
-	width: 300px;
-	height: 250px;
-	perspective: 1000px;
-	margin-left: 0px;
-	margin-right: auto;
-	margin-top: 50%; 
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-box-inner {
+.tooltip {
 	position: relative;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	transition: transform 0.8s;
-	transform-style: preserve-3d;
   }
   
-  .flip-box:hover .flip-box-inner {
-	transform: rotateY(180deg);
-  }
-  
-  .flip-box-front, .flip-box-back {
+  .tooltip .tooltiptext {
+	font-family: 'Special Elite', cursive;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	border-radius: 3px;
+	padding: 5px 5px;
 	position: absolute;
-	width: 100%;
-	height: 100%;
-	-webkit-backface-visibility: hidden; /* Safari */
-	backface-visibility: hidden;
+	z-index: 1;
   }
   
-  .flip-box-back {
-	color: white;
-	transform: rotateY(180deg);
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
   }
-
 
   /*
  #5F0F40 
