@@ -50,12 +50,12 @@ a {
   }
   
   .tooltip .tooltiptext {
+	border-radius: 3px;
+	background-color:#000000cc;
+	color: #fff;
 	font-family: 'Special Elite', cursive;
 	visibility: hidden;
 	width: 500px;
-	background-color: black;
-	color: #fff;
-	border-radius: 3px;
 	padding: 5px 5px;
 	position: absolute;
 	z-index: 1;
@@ -64,6 +64,14 @@ a {
   .tooltip:hover .tooltiptext {
 	visibility: visible;
   }
+
+.resaltar {
+	font-family: 'Special Elite', cursive;
+}
+
+.contenido-propio {
+  color: #9A031E;
+}
 
   /*
  #5F0F40 
