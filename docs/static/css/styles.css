@@ -73,6 +73,12 @@ a {
   color: #9A031E;
 }
 
+.ilus-dim {
+	height: 80vh;
+    display: block;
+    margin: 0 auto;
+}
+
   /*
  #5F0F40 
  #9A031E
