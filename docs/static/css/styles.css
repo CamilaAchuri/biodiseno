@@ -77,7 +77,8 @@ a {
 .ilus-dim {
 	height: 80vh;
     display: block;
-    margin: 0 auto;
+	margin: 0 auto;
+	max-width: 100%;
 }
 
 .fondo-resumen {
