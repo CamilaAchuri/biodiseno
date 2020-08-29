@@ -88,15 +88,15 @@ a {
 
 /* COMILLAS */
 blockquote {
-	padding: 3% 11%;
 	font-style: italic;
 	line-height: 1.5em;
+	padding: 0% 9% 3% 0%;
 }
 blockquote:before { 
 	content: "\201C"; 
 	font-size:40px; 
 	font-weight: bold; line-height:0px;
-	color:#000000; 
+	color:#000000ba; 
 	vertical-align:middle;
 	}
 blockquote:after { 
@@ -104,9 +104,14 @@ blockquote:after {
 	font-size:40px; 
 	font-weight: bold;
 	line-height:0px;
-	color:#000000;
+	color:#000000ba;
 	vertical-align:middle;
 	padding-top:10px;
+}
+
+.img-cita{
+	display: grid;
+	grid-template-columns: 0.3fr 0.7fr;
 }
 
   /*
