@@ -112,6 +112,39 @@ blockquote:after {
 .img-cita{
 	display: grid;
 	grid-template-columns: 0.3fr 0.7fr;
+	padding-top: 7%;
+}
+
+.titulo-expo {
+  text-align: center;
+  padding: 0px 20%;
+}
+
+
+
+.expos {
+	padding: 0% 5%;
+}
+
+.grid-expo {
+ display: grid;
+ grid-template-columns: 0.2fr 0.6fr 0.2fr;
+}
+
+.resumen {
+	color: #0F4C5C;
+	font-family: 'Special Elite', cursive;
+	font-size: 1em;	
+}
+
+.proceso{
+   font-weight: 700;
+   border-bottom: 2px solid #00000054;
+}
+
+.busqueda {
+ color: #FB8B24;
+ font-size: 17px;
 }
 
   /*
