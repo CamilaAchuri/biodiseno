@@ -14,10 +14,30 @@ body {
 	font-size: 21px;
 }
 
+.header {
+	color: #0097a7;
+	display: flex;
+	position: sticky;
+	z-index: 10;
+	padding: 0.5rem;
+	top: 0;
+	--bg-opacity: 1;
+    background-color: #fcfcfc;
+}
+
+.header-titulo {
+	position: absolute;
+    right: 0;
+    top: 36%;
+    font-size: 25px;
+    letter-spacing: 0.5rem;
+    padding-right: 10px;
+}
+
 
 article {
 	margin: 0 auto;
-	padding: 9% 25%;
+	padding: 3% 25%;
 }
 
 
