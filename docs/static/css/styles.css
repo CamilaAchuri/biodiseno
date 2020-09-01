@@ -58,8 +58,9 @@ p {
 
 a {
 	text-decoration: none;
-    color: #000000;
+    color: #000000c2;
     font-style: italic;
+    font-weight: 600;
 }
 
 .color-fondo {
