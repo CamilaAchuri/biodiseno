@@ -58,9 +58,8 @@ p {
 
 a {
 	text-decoration: none;
-    color: #000000c2;
+    color: #000000;
     font-style: italic;
-    font-weight: 600;
 }
 
 .color-fondo {
@@ -92,7 +91,7 @@ a {
 }
 
 .contenido-propio {
-  color: #FB8B24;
+  color: #9A031E;
 }
 
 .ilus-dim {
@@ -103,7 +102,7 @@ a {
 }
 
 .fondo-resumen {
-  color: #5F0F40;	
+  color: #FB8B24;	
 }
 
 
